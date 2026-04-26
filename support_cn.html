@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>支持 - UniMerge</title>
+  <title>支持 - Source Code Warden</title>
   <style>
     body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #333; }
     h1 { color: #0066cc; }
@@ -15,23 +15,28 @@
 </head>
 <body>
   <h1>支持与帮助</h1>
-  <p>欢迎使用 <b>UniMerge</b>！如果您在导入、排序、合并或导出文档时遇到问题，可以先参考以下常见问题（FAQ）。</p>
+  <p>欢迎使用 <b>Source Code Warden</b>！如果您在选择源文件、分配备份目录、选择命名方案或创建备份时遇到问题，可以先参考以下常见问题（FAQ）。</p>
 
   <h2>常见问题（FAQ）</h2>
 
   <div class="faq">
-    <p><b>Q: UniMerge 可以做什么？</b></p>
-    <p>A: UniMerge 可帮助您导入多个文件，调整文件或页面顺序，预览合并结果，并将内容导出为支持的输出格式。</p>
+    <p><b>Q: Source Code Warden 可以做什么？</b></p>
+    <p>A: Source Code Warden 可帮助您选择源文件或项目目录，为不同文件分配备份目标目录，选择备份命名方案，并创建安全、清晰、可追踪的备份副本。</p>
   </div>
 
   <div class="faq">
-    <p><b>Q: 为什么应用找不到或打不开我的文件？</b></p>
-    <p>A: 请确认您已授予文件或文件夹访问权限；如有需要，请重新选择相关文件。</p>
+    <p><b>Q: 为什么应用无法访问我的文件或备份目录？</b></p>
+    <p>A: 请确认您已授予文件或文件夹访问权限；如有需要，请重新选择源文件、项目目录或目标备份文件夹。</p>
   </div>
 
   <div class="faq">
-    <p><b>Q: 为什么导出的结果和源文件看起来不完全一样？</b></p>
-    <p>A: 导出效果可能会因源文件格式、布局设置、页面顺序、缩放比例以及您选择的导出类型不同而有所差异。</p>
+    <p><b>Q: 为什么 Normal Backup 在已有同名备份时会失败？</b></p>
+    <p>A: Normal Backup 使用严格的按日期命名规则。如果目标目录中已经存在同名备份，您可以选择其他目标目录、移除已有备份，或使用 Debug Version Backup 自动生成下一个可用版本后缀。</p>
+  </div>
+
+  <div class="faq">
+    <p><b>Q: 什么是 Debug Version Backup？</b></p>
+    <p>A: Debug Version Backup 会扫描目标目录并自动生成下一个可用后缀，例如 A、B、C 或 AA，从而避免覆盖已有备份文件。</p>
   </div>
 
   <div class="faq">
@@ -42,9 +47,9 @@
   <h2>联系我们</h2>
   <ul>
     <li>邮箱: <a href="mailto:frank.gb.gu@gmail.com">frank.gb.gu@gmail.com</a></li>
-    <li>GitHub Issues: <a href="https://github.com/DiscoveryPython/melody-haven-privacy/issues" target="_blank">提交问题</a></li>
+    <li>GitHub Issues: <a href="https://github.com/DiscoveryPython/sourcecode-warden-privacy/issues" target="_blank">提交问题</a></li>
   </ul>
 
-  <footer>© 2026 UniMerge. All rights reserved.</footer>
+  <footer>© 2026 Source Code Warden. All rights reserved.</footer>
 </body>
 </html>
